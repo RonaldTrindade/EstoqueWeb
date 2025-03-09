@@ -44,8 +44,9 @@ namespace EstoqueWeb.Pages.PageEstoqueProduto
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid)
+            if (EstoqueProduto.UsuarioId == 0)
             {
+                ModelState.AddModelError("EstoqueProduto.UsuarioId", "Selecione um usuário válido.");
                 return Page();
             }
 
