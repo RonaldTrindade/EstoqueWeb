@@ -36,7 +36,7 @@ namespace EstoqueWeb.Pages.PageMovimentacoes
                 return NotFound();
             }
             SaidaEntradaProduto = saidaentradaproduto;
-           ViewData["EstoqueId"] = new SelectList(_context.Estoques, "Id", "Localizacao");
+           ViewData["EstoqueId"] = new SelectList(_context.Estoques, "Id", "Nome");
            ViewData["ProdutoId"] = new SelectList(_context.Produtos, "Id", "Nome");
             return Page();
         }
@@ -45,11 +45,7 @@ namespace EstoqueWeb.Pages.PageMovimentacoes
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid)
-            {
-                return Page();
-            }
-
+            SaidaEntradaProduto.DataOperacao = SaidaEntradaProduto.DataOperacao.ToUniversalTime();
             _context.Attach(SaidaEntradaProduto).State = EntityState.Modified;
 
             try

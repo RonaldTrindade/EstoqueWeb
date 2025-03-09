@@ -21,7 +21,7 @@ namespace EstoqueWeb.Pages.PageMovimentacoes
 
         public IActionResult OnGet()
         {
-        ViewData["EstoqueId"] = new SelectList(_context.Estoques, "Id", "Localizacao");
+        ViewData["EstoqueId"] = new SelectList(_context.Estoques, "Id", "Nome");
         ViewData["ProdutoId"] = new SelectList(_context.Produtos, "Id", "Nome");
             return Page();
         }
@@ -32,15 +32,15 @@ namespace EstoqueWeb.Pages.PageMovimentacoes
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid)
-            {
-                return Page();
-            }
+            
+                // Converte a DataOperacao para UTC
+                SaidaEntradaProduto.DataOperacao = SaidaEntradaProduto.DataOperacao.ToUniversalTime();
+            
+                _context.Movimentacoes.Add(SaidaEntradaProduto);
+                await _context.SaveChangesAsync();
 
-            _context.Movimentacoes.Add(SaidaEntradaProduto);
-            await _context.SaveChangesAsync();
-
-            return RedirectToPage("./Index");
+                return RedirectToPage("./Index");
+      
         }
     }
 }

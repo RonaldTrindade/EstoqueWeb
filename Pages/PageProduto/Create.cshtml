@@ -31,8 +31,11 @@
                 <span asp-validation-for="Produto.QuantidadeDisponivel" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <span class="text-danger">*</span>
                 <label asp-for="Produto.EstoqueId" class="control-label"></label>
-                <select asp-for="Produto.EstoqueId" class ="form-control" asp-items="ViewBag.EstoqueId"></select>
+                <select asp-for="Produto.EstoqueId" class="form-control" asp-items="ViewBag.EstoqueId">
+                    <option value="">Selecione um estoque</option>
+                </select>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
@@ -46,5 +49,7 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

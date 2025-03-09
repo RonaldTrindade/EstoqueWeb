@@ -36,7 +36,7 @@ namespace EstoqueWeb.Pages.PageProduto
                 return NotFound();
             }
             Produto = produto;
-           ViewData["EstoqueId"] = new SelectList(_context.Estoques, "Id", "Localizacao");
+           ViewData["EstoqueId"] = new SelectList(_context.Estoques, "Id", "Nome");
             return Page();
         }
 
@@ -44,8 +44,9 @@ namespace EstoqueWeb.Pages.PageProduto
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid)
+            if (Produto.EstoqueId == 0)
             {
+                ModelState.AddModelError("Produto.EstoqueId", "Selecione um estoque válido.");
                 return Page();
             }
 
