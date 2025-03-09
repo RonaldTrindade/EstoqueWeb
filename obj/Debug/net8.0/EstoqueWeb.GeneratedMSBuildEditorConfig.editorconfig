@@ -36,6 +36,86 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/PageEstoqueProduto/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZUVzdG9xdWVQcm9kdXRvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/PageEstoqueProduto/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZUVzdG9xdWVQcm9kdXRvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/PageEstoqueProduto/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZUVzdG9xdWVQcm9kdXRvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/PageEstoqueProduto/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZUVzdG9xdWVQcm9kdXRvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/PageEstoqueProduto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZUVzdG9xdWVQcm9kdXRvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/PageMovimentacoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZU1vdmltZW50YWNvZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/PageMovimentacoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZU1vdmltZW50YWNvZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/PageMovimentacoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZU1vdmltZW50YWNvZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/PageMovimentacoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZU1vdmltZW50YWNvZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/PageMovimentacoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZU1vdmltZW50YWNvZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/PageProduto/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZVByb2R1dG9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/PageProduto/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZVByb2R1dG9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/PageProduto/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZVByb2R1dG9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/PageProduto/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZVByb2R1dG9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/PageProduto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZVByb2R1dG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/PageUsuario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZVVzdWFyaW9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/PageUsuario/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZVVzdWFyaW9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/PageUsuario/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZVVzdWFyaW9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/PageUsuario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZVVzdWFyaW9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/PageUsuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZVVzdWFyaW9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ronal/source/repos/EstoqueWeb/EstoqueWeb/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,49 @@
+﻿@page
+@model EstoqueWeb.Pages.PageMovimentacoes.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>SaidaEntradaProduto</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SaidaEntradaProduto.TipoOperacao)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SaidaEntradaProduto.TipoOperacao)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SaidaEntradaProduto.Quantidade)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SaidaEntradaProduto.Quantidade)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SaidaEntradaProduto.DataOperacao)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SaidaEntradaProduto.DataOperacao)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SaidaEntradaProduto.Produto)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SaidaEntradaProduto.Produto.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SaidaEntradaProduto.Estoque)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SaidaEntradaProduto.Estoque.Localizacao)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.SaidaEntradaProduto.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

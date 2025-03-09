@@ -265,3 +265,5 @@ C:\Users\ronal\source\repos\EstoqueWeb\EstoqueWeb\bin\Debug\net8.0\runtimes\win\
 C:\Users\ronal\source\repos\EstoqueWeb\EstoqueWeb\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\ronal\source\repos\EstoqueWeb\EstoqueWeb\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\ronal\source\repos\EstoqueWeb\EstoqueWeb\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\ronal\source\repos\EstoqueWeb\EstoqueWeb\obj\Debug\net8.0\EstoqueWeb.sourcelink.json
+C:\Users\ronal\source\repos\EstoqueWeb\EstoqueWeb\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

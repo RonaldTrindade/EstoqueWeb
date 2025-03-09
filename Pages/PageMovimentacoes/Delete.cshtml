@@ -1,0 +1,52 @@
+﻿@page
+@model EstoqueWeb.Pages.PageMovimentacoes.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>SaidaEntradaProduto</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SaidaEntradaProduto.TipoOperacao)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SaidaEntradaProduto.TipoOperacao)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SaidaEntradaProduto.Quantidade)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SaidaEntradaProduto.Quantidade)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SaidaEntradaProduto.DataOperacao)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SaidaEntradaProduto.DataOperacao)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SaidaEntradaProduto.Produto)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SaidaEntradaProduto.Produto.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SaidaEntradaProduto.Estoque)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SaidaEntradaProduto.Estoque.Localizacao)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="SaidaEntradaProduto.Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>
