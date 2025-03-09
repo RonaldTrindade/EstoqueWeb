@@ -1,22 +1,302 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
+
+.hero-section {
+    background: linear-gradient(135deg, #003366, #000);
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero-content .btn {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+}
+
+/* Estilos para a seção de Recursos */
+    .features-section {
+        padding: 80px 0;
+        background-color: #f8f9fa;
+    }
+
+    .features-section h2 {
+        font-size: 2.5rem;
+        margin-bottom: 50px;
+        color: #003366;
+    }
+
+    .feature-item {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .feature-icon {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+    .feature-item h3 {
+        font-size: 1.5rem;
+        color: #003366;
+        margin-bottom: 15px;
+    }
+
+    .feature-item p {
+        font-size: 1rem;
+        color: #666;
+    }
+
+    .about-section {
+        padding: 80px 0;
+        background-color: #fff;
+    }
+
+    .about-section h2 {
+        font-size: 2.5rem;
+        color: #003366;
+        margin-bottom: 20px;
+    }
+
+    .about-section p {
+        font-size: 1.1rem;
+        color: #666;
+        margin-bottom: 30px;
+    }
+
+    .about-section .btn {
+        font-size: 1.1rem;
+        padding: 10px 30px;
+    }
+
+    .animate__animated {
+        animation-duration: 1s;
+    }
+
+    .privacy-hero {
+        background: linear-gradient(135deg, #003366, #000);
+        color: #fff;
+        padding: 100px 0;
+        text-align: center;
+    }
+
+    .privacy-hero h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .privacy-hero p {
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    .privacy-content {
+        padding: 80px 0;
+        background-color: #f8f9fa;
+    }
+
+    .privacy-content .card {
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .privacy-content .card-body {
+        padding: 40px;
+    }
+
+    .privacy-content .card-title {
+        font-size: 2rem;
+        color: #003366;
+        margin-bottom: 30px;
+    }
+
+    .privacy-content .card-text {
+        font-size: 1.1rem;
+        color: #555;
+        line-height: 1.8;
+        margin-bottom: 30px;
+    }
+
+    .privacy-content h3 {
+        font-size: 1.5rem;
+        color: #003366;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .privacy-content p {
+        font-size: 1rem;
+        color: #666;
+        line-height: 1.6;
+    }
+
+    .footer {
+        background-color: #1a1a1a;
+        border-top: 2px solid #003366;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .footer a.btn {
+        color: #ffffff;
+        border-color: #ffffff;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+        .footer a.btn:hover {
+            background-color: #003366;
+            border-color: #003366;
+            color: #ffffff;
+        }
+
+    .footer p {
+        color: #b3b3b3;
+        margin-top: 4px;
+    }
+
+    /* Estilos para os botões dos módulos */
+    .btn-module {
+        background-color: #003366; /* Azul marinho */
+        color: #4da6ff !important; /* Texto em azul mais claro */
+        border-radius: 8px; /* Bordas arredondadas */
+        padding: 10px 20px; /* Espaçamento interno */
+        margin: 0 5px; /* Espaçamento entre os botões */
+        text-align: center;
+        transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave */
+        display: inline-block;
+        text-decoration: none !important; /* Remove sublinhado */
+        font-family: 'Nunito', sans-serif; /* Fonte consistente */
+    }
+
+    .btn-module:hover {
+        background-color: #002244; /* Azul marinho mais escuro ao passar o mouse */
+        transform: translateY(-3px); /* Efeito de levantar o botão */
+        color: #4da6ff !important; /* Mantém o texto em azul mais claro no hover */
+    }
+
+    .btn-module i {
+        margin-right: 8px; /* Espaçamento entre ícone e texto */
+        color: #4da6ff; /* Ícone em azul mais claro */
+    }
+    /* Estilo para o texto da navbar-brand */
+    .navbar-brand.logo-text {
+        font-family: 'Nunito', sans-serif; /* Fonte moderna */
+        font-size: 1.75rem; /* Tamanho maior */
+        font-weight: 700; /* Negrito */
+        background: linear-gradient(135deg, #4da6ff, #003366); /* Gradiente azul */
+        -webkit-background-clip: text; /* Aplica o gradiente ao texto */
+        -webkit-text-fill-color: transparent; /* Torna o texto transparente */
+        background-clip: text;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+        transition: all 0.3s ease; /* Transição suave */
+    }
+
+        .navbar-brand.logo-text:hover {
+            transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* Sombra mais forte no hover */
+        }
+
+
+        /* Estilos para a seção Hero */
+        .saibamais-hero {
+            background: linear-gradient(135deg, #003366, #000);
+            color: #fff;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+            .saibamais-hero h1 {
+                font-size: 2.5rem;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+
+            .saibamais-hero p {
+                font-size: 1.25rem;
+                margin-bottom: 0;
+            }
+
+        /* Estilos para a seção de Conteúdo */
+        .content-section {
+            padding: 60px 0;
+            background-color: #fff;
+        }
+
+            .content-section h2 {
+                font-size: 2rem;
+                color: #003366;
+                margin-bottom: 20px;
+            }
+
+            .content-section h3 {
+                font-size: 1.5rem;
+                color: #003366;
+                margin-bottom: 20px;
+            }
+
+            .content-section p {
+                font-size: 1.1rem;
+                color: #666;
+                line-height: 1.8;
+            }
+
+            .content-section ul {
+                font-size: 1.1rem;
+                color: #666;
+            }
+
+                .content-section ul li {
+                    margin: 10px 0;
+                }
+
+            .content-section .btn {
+                font-size: 1.1rem;
+                padding: 10px 30px;
+            }
+
+        /* Estilos para o rodapé */
+        .footer {
+            background-color: #1a1a1a;
+            border-top: 2px solid #003366;
+            font-family: 'Nunito', sans-serif;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+            .footer p {
+                color: #b3b3b3;
+                margin-bottom: 0;
+            }
+    

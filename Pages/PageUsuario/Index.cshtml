@@ -1,42 +1,45 @@
 ﻿@page
 @model EstoqueWeb.Pages.PageUsuario.IndexModel
-
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Usuários";
 }
 
-<h1>Index</h1>
+<div class="container-crud">
+    <h1 class="mb-4 text-primary">Usuários</h1>
 
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Usuario[0].Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Usuario[0].Email)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model.Usuario) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <p>
+        <a asp-page="Create" class="btn btn-primary">
+            <i class="fas fa-plus"></i> Novo Usuário
+        </a>
+    </p>
+
+    <table class="table-crud">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Usuario[0].Nome)</th>
+                <th>@Html.DisplayNameFor(model => model.Usuario[0].Email)</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Usuario)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Nome)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-edit btn-action">
+                            <i class="fas fa-edit"></i> Editar
+                        </a>
+                        <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-details btn-action">
+                            <i class="fas fa-info-circle"></i> Detalhes
+                        </a>
+                        <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-delete btn-action">
+                            <i class="fas fa-trash-alt"></i> Excluir
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

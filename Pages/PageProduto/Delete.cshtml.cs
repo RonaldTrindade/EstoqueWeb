@@ -29,7 +29,10 @@ namespace EstoqueWeb.Pages.PageProduto
                 return NotFound();
             }
 
-            var produto = await _context.Produtos.FirstOrDefaultAsync(m => m.Id == id);
+            
+            var produto = await _context.Produtos
+                .Include(p => p.Estoque) 
+                .FirstOrDefaultAsync(m => m.Id == id);
 
             if (produto == null)
             {

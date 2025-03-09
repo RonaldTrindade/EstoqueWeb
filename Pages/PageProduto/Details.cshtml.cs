@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -28,15 +26,16 @@ namespace EstoqueWeb.Pages.PageProduto
                 return NotFound();
             }
 
-            var produto = await _context.Produtos.FirstOrDefaultAsync(m => m.Id == id);
-            if (produto == null)
+            
+            Produto = await _context.Produtos
+                .Include(p => p.Estoque) 
+                .FirstOrDefaultAsync(m => m.Id == id);
+
+            if (Produto == null)
             {
                 return NotFound();
             }
-            else
-            {
-                Produto = produto;
-            }
+
             return Page();
         }
     }

@@ -1,54 +1,62 @@
 ﻿@page
 @model EstoqueWeb.Pages.PageMovimentacoes.CreateModel
-
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Nova Movimentação";
 }
 
-<h1>Create</h1>
+<div class="container-crud">
+    <h1 class="mb-4 text-primary">Nova Movimentação</h1>
 
-<h4>SaidaEntradaProduto</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <span class="text-danger">*</span>
-                <label asp-for="SaidaEntradaProduto.TipoOperacao" class="control-label"></label>
-                <input asp-for="SaidaEntradaProduto.TipoOperacao" class="form-control" />
-                <span asp-validation-for="SaidaEntradaProduto.TipoOperacao" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <span class="text-danger">*</span>
-                <label asp-for="SaidaEntradaProduto.Quantidade" class="control-label"></label>
-                <input asp-for="SaidaEntradaProduto.Quantidade" class="form-control" />
-                <span asp-validation-for="SaidaEntradaProduto.Quantidade" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="SaidaEntradaProduto.DataOperacao" class="control-label"></label>
-                <input asp-for="SaidaEntradaProduto.DataOperacao" class="form-control" />
-                <span asp-validation-for="SaidaEntradaProduto.DataOperacao" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="SaidaEntradaProduto.ProdutoId" class="control-label"></label>
-                <select asp-for="SaidaEntradaProduto.ProdutoId" class ="form-control" asp-items="ViewBag.ProdutoId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="SaidaEntradaProduto.EstoqueId" class="control-label"></label>
-                <select asp-for="SaidaEntradaProduto.EstoqueId" class ="form-control" asp-items="ViewBag.EstoqueId"></select>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
+    <form method="post" class="form-crud">
+        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
 
-<div>
-    <a asp-page="Index">Back to List</a>
+        <div class="form-group">
+            <label asp-for="SaidaEntradaProduto.TipoOperacao" class="font-weight-bold">Tipo de Operação <span class="text-danger">*</span></label>
+            <input asp-for="SaidaEntradaProduto.TipoOperacao" class="form-control" placeholder="Digite o tipo de operação" />
+            <span asp-validation-for="SaidaEntradaProduto.TipoOperacao" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="SaidaEntradaProduto.Quantidade" class="font-weight-bold">Quantidade <span class="text-danger">*</span></label>
+            <input asp-for="SaidaEntradaProduto.Quantidade" class="form-control" placeholder="Digite a quantidade" />
+            <span asp-validation-for="SaidaEntradaProduto.Quantidade" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="SaidaEntradaProduto.DataOperacao" class="font-weight-bold">Data da Operação</label>
+            <input asp-for="SaidaEntradaProduto.DataOperacao" class="form-control" />
+            <span asp-validation-for="SaidaEntradaProduto.DataOperacao" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="SaidaEntradaProduto.ProdutoId" class="font-weight-bold">Produto <span class="text-danger">*</span></label>
+            <select asp-for="SaidaEntradaProduto.ProdutoId" class="form-control" asp-items="ViewBag.ProdutoId">
+                <option value="">Selecione um produto</option>
+            </select>
+            <span asp-validation-for="SaidaEntradaProduto.ProdutoId" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="SaidaEntradaProduto.EstoqueId" class="font-weight-bold">Estoque <span class="text-danger">*</span></label>
+            <select asp-for="SaidaEntradaProduto.EstoqueId" class="form-control" asp-items="ViewBag.EstoqueId">
+                <option value="">Selecione um estoque</option>
+            </select>
+            <span asp-validation-for="SaidaEntradaProduto.EstoqueId" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-submit">
+                <i class="fas fa-save"></i> Salvar
+            </button>
+            <a asp-page="Index" class="btn btn-secondary">
+                <i class="fas fa-arrow-left"></i> Voltar
+            </a>
+        </div>
+    </form>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

@@ -1,61 +1,61 @@
 ﻿@page
 @model EstoqueWeb.Pages.PageEstoqueProduto.CreateModel
-
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Novo Estoque";
 }
 
-<h1>Create</h1>
+<div class="container-crud">
+    <h1 class="mb-4 text-primary">Novo Estoque</h1>
 
-<h4>EstoqueProduto</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        @if (!ViewData.ModelState.IsValid)
-        {
-            <div class="alert alert-danger">
-                <strong>Erros encontrados:</strong>
-                <ul>
-                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
-                    {
-                        <li>@error.ErrorMessage</li>
-                    }
-                </ul>
-            </div>
-        }
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger">
+            <strong>Erros encontrados:</strong>
+            <ul>
+                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <li>@error.ErrorMessage</li>
+                }
+            </ul>
+        </div>
+    }
 
-        <form method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <span class="text-danger">*</span>
-                <label asp-for="EstoqueProduto.Nome" class="control-label"></label>
-                <input asp-for="EstoqueProduto.Nome" class="form-control" />
-                <span asp-validation-for="EstoqueProduto.Nome" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <span class="text-danger">*</span>
-                <label asp-for="EstoqueProduto.Localizacao" class="control-label"></label>
-                <input asp-for="EstoqueProduto.Localizacao" class="form-control" />
-                <span asp-validation-for="EstoqueProduto.Localizacao" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="EstoqueProduto.UsuarioId" class="control-label"></label>
-                <select asp-for="EstoqueProduto.UsuarioId" class="form-control" asp-items="ViewBag.UsuarioId">
-                    <option value="">Selecione um usuário</option>
-                </select>
+    <form method="post" class="form-crud">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
+        <div class="form-group">
+            <label asp-for="EstoqueProduto.Nome" class="font-weight-bold">Nome <span class="text-danger">*</span></label>
+            <input asp-for="EstoqueProduto.Nome" class="form-control" placeholder="Digite o nome" />
+            <span asp-validation-for="EstoqueProduto.Nome" class="text-danger"></span>
+        </div>
 
-<div>
-    <a asp-page="Index">Back to List</a>
+        <div class="form-group">
+            <label asp-for="EstoqueProduto.Localizacao" class="font-weight-bold">Localização <span class="text-danger">*</span></label>
+            <input asp-for="EstoqueProduto.Localizacao" class="form-control" placeholder="Digite a localização" />
+            <span asp-validation-for="EstoqueProduto.Localizacao" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="EstoqueProduto.UsuarioId" class="font-weight-bold">Usuário</label>
+            <select asp-for="EstoqueProduto.UsuarioId" class="form-control" asp-items="ViewBag.UsuarioId">
+                <option value="">Selecione um usuário</option>
+            </select>
+            <span asp-validation-for="EstoqueProduto.UsuarioId" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-submit">
+                <i class="fas fa-save"></i> Salvar
+            </button>
+            <a asp-page="Index" class="btn btn-secondary">
+                <i class="fas fa-arrow-left"></i> Voltar
+            </a>
+        </div>
+    </form>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

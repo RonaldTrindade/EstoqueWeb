@@ -1,8 +1,53 @@
 ﻿@page
 @model PrivacyModel
 @{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "Política de Privacidade";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<!-- Seção Hero (Destaque) -->
+<section class="privacy-hero">
+    <div class="container">
+        <h1 class="animate__animated animate__fadeInDown">@ViewData["Title"]</h1>
+        <p class="lead animate__animated animate__fadeInUp animate__delay-1s">
+            Conheça nossas práticas de privacidade e segurança.
+        </p>
+    </div>
+</section>
+
+<!-- Conteúdo da Política de Privacidade -->
+<section class="privacy-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="card animate__animated animate__fadeInUp animate__delay-2s">
+                    <div class="card-body">
+                        <h2 class="card-title">Nossa Política de Privacidade</h2>
+                        <p class="card-text">
+                            A sua privacidade é importante para nós. Esta política descreve como coletamos, usamos e protegemos as informações que você nos fornece.
+                        </p>
+                        <h3>1. Coleta de Dados</h3>
+                        <p>
+                            Coletamos informações pessoais, como nome, e-mail e endereço, apenas quando você as fornece voluntariamente.
+                        </p>
+                        <h3>2. Uso dos Dados</h3>
+                        <p>
+                            Utilizamos suas informações para melhorar nossos serviços, personalizar sua experiência e enviar comunicações relevantes.
+                        </p>
+                        <h3>3. Proteção dos Dados</h3>
+                        <p>
+                            Implementamos medidas de segurança para proteger suas informações contra acesso não autorizado ou divulgação.
+                        </p>
+                        <h3>4. Compartilhamento de Dados</h3>
+                        <p>
+                            Não compartilhamos suas informações com terceiros, exceto quando necessário para fornecer nossos serviços ou por exigência legal.
+                        </p>
+                        <h3>5. Alterações na Política</h3>
+                        <p>
+                            Reservamo-nos o direito de atualizar esta política periodicamente. Recomendamos que você a revise regularmente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
