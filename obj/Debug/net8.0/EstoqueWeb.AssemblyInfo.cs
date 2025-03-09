@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EstoqueWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc0fd7653cc2401e8a0afbf85d76fff65281e9c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb4bfb65be82481e779697ba47b599dfaf87792c")]
 [assembly: System.Reflection.AssemblyProductAttribute("EstoqueWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EstoqueWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

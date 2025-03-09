@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace EstoqueWeb.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250309142216_InicialCreate")]
+    [Migration("20250309153712_InicialCreate")]
     partial class InicialCreate
     {
         /// <inheritdoc />

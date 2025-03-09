@@ -27,6 +27,6 @@ namespace EstoqueWeb.Models
         public int EstoqueId { get; set; }
 
         // Propriedade de navegação para EstoqueProduto
-        public EstoqueProduto Estoque { get; set; }
+        public EstoqueProduto Estoque { get; set; } 
     }
 }

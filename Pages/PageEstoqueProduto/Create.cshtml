@@ -11,6 +11,19 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-danger">
+                <strong>Erros encontrados:</strong>
+                <ul>
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <li>@error.ErrorMessage</li>
+                    }
+                </ul>
+            </div>
+        }
+
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -27,7 +40,10 @@
             </div>
             <div class="form-group">
                 <label asp-for="EstoqueProduto.UsuarioId" class="control-label"></label>
-                <select asp-for="EstoqueProduto.UsuarioId" class ="form-control" asp-items="ViewBag.UsuarioId"></select>
+                <select asp-for="EstoqueProduto.UsuarioId" class="form-control" asp-items="ViewBag.UsuarioId">
+                    <option value="">Selecione um usuário</option>
+                </select>
+
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
