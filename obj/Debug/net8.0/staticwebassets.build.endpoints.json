@@ -331,6 +331,88 @@
       ]
     },
     {
+      "Route": "images/warehouse-solid.7zxyplkjnq.svg",
+      "AssetFile": "images/warehouse-solid.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gw2E5CaVjsYgErK75/L996UGbqmWsy8BdTng4M+4eGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 21:07:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7zxyplkjnq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gw2E5CaVjsYgErK75/L996UGbqmWsy8BdTng4M+4eGU="
+        },
+        {
+          "Name": "label",
+          "Value": "images/warehouse-solid.svg"
+        }
+      ]
+    },
+    {
+      "Route": "images/warehouse-solid.svg",
+      "AssetFile": "images/warehouse-solid.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gw2E5CaVjsYgErK75/L996UGbqmWsy8BdTng4M+4eGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 21:07:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gw2E5CaVjsYgErK75/L996UGbqmWsy8BdTng4M+4eGU="
+        }
+      ]
+    },
+    {
       "Route": "js/site.aun27oo14n.js",
       "AssetFile": "js/site.js",
       "Selectors": [],

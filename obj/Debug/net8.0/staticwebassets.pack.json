@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\ronal\\source\\repos\\EstoqueWeb\\EstoqueWeb\\wwwroot\\images\\warehouse-solid.svg",
+      "PackagePath": "staticwebassets\\images\\warehouse-solid.svg"
+    },
+    {
       "Id": "C:\\Users\\ronal\\source\\repos\\EstoqueWeb\\EstoqueWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

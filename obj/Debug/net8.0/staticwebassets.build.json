@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gzsYWy0EazbED5dpKxxGJDsUdBFHOvT3ZVHUcanskwM=",
+  "Hash": "OyXDl5l9bDEc2n1saS/HUBbEhvT/6NptrcL4CaUvvMw=",
   "Source": "EstoqueWeb",
   "BasePath": "_content/EstoqueWeb",
   "Mode": "Default",
@@ -120,6 +120,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\ronal\\source\\repos\\EstoqueWeb\\EstoqueWeb\\wwwroot\\images\\warehouse-solid.svg",
+      "SourceId": "EstoqueWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ronal\\source\\repos\\EstoqueWeb\\EstoqueWeb\\wwwroot\\",
+      "BasePath": "_content/EstoqueWeb",
+      "RelativePath": "images/warehouse-solid#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7zxyplkjnq",
+      "Integrity": "gw2E5CaVjsYgErK75/L996UGbqmWsy8BdTng4M+4eGU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\warehouse-solid.svg"
     },
     {
       "Identity": "C:\\Users\\ronal\\source\\repos\\EstoqueWeb\\EstoqueWeb\\wwwroot\\js\\site.js",
@@ -1748,6 +1769,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/warehouse-solid.7zxyplkjnq.svg",
+      "AssetFile": "C:\\Users\\ronal\\source\\repos\\EstoqueWeb\\EstoqueWeb\\wwwroot\\images\\warehouse-solid.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gw2E5CaVjsYgErK75/L996UGbqmWsy8BdTng4M+4eGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 21:07:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7zxyplkjnq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/warehouse-solid.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gw2E5CaVjsYgErK75/L996UGbqmWsy8BdTng4M+4eGU="
+        }
+      ]
+    },
+    {
+      "Route": "images/warehouse-solid.svg",
+      "AssetFile": "C:\\Users\\ronal\\source\\repos\\EstoqueWeb\\EstoqueWeb\\wwwroot\\images\\warehouse-solid.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gw2E5CaVjsYgErK75/L996UGbqmWsy8BdTng4M+4eGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 21:07:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gw2E5CaVjsYgErK75/L996UGbqmWsy8BdTng4M+4eGU="
         }
       ]
     },
