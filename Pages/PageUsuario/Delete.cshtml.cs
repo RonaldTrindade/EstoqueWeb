@@ -55,6 +55,7 @@ namespace EstoqueWeb.Pages.PageUsuario
                 Usuario = usuario;
                 _context.Usuarios.Remove(Usuario);
                 await _context.SaveChangesAsync();
+                TempData["Sucesso"] = "Usuário excluído com sucesso!";
             }
 
             return RedirectToPage("./Index");

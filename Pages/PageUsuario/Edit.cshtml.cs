@@ -65,7 +65,7 @@ namespace EstoqueWeb.Pages.PageUsuario
                     throw;
                 }
             }
-
+            TempData["Sucesso"] = "Usuário Editado com sucesso!";
             return RedirectToPage("./Index");
         }
 

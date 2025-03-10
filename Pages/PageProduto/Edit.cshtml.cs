@@ -67,7 +67,7 @@ namespace EstoqueWeb.Pages.PageProduto
                     throw;
                 }
             }
-
+            TempData["Sucesso"] = "Produto Editado com sucesso!";
             return RedirectToPage("./Index");
         }
 

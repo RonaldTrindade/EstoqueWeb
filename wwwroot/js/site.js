@@ -24,3 +24,13 @@ document.querySelectorAll("a").forEach(link => {
         }, 500); // Tempo da animação em milissegundos
     });
 });
+// Exibe a notificação e a remove automaticamente após 5 segundos
+document.addEventListener("DOMContentLoaded", function () {
+    const alertas = document.querySelectorAll(".alert-temporaria");
+    alertas.forEach(alerta => {
+        setTimeout(function () {
+            alerta.classList.add("fade"); // Adiciona classe para fade-out
+            setTimeout(() => alerta.remove(), 1000); // Remove o elemento do DOM após a animação (1s)
+        }, 2000); // Exibe por 5 segundos
+    });
+});

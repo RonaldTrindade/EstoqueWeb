@@ -5,6 +5,12 @@
 }
 
 <div class="container-crud">
+    @if (TempData["Sucesso"] != null)
+    {
+        <div class="alert alert-success alert-temporaria show" role="alert">
+            @TempData["Sucesso"]
+        </div>
+    }
     <h1 class="mb-4 text-primary">Editar Produto</h1>
 
     <form method="post" class="form-crud">

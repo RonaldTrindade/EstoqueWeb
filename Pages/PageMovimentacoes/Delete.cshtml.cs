@@ -55,6 +55,7 @@ namespace EstoqueWeb.Pages.PageMovimentacoes
                 SaidaEntradaProduto = saidaentradaproduto;
                 _context.Movimentacoes.Remove(SaidaEntradaProduto);
                 await _context.SaveChangesAsync();
+                TempData["Sucesso"] = "Movimentação excluída com sucesso!";
             }
 
             return RedirectToPage("./Index");

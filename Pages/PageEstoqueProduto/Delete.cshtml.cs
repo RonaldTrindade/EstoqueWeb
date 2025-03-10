@@ -55,6 +55,7 @@ namespace EstoqueWeb.Pages.PageEstoqueProduto
                 EstoqueProduto = estoqueproduto;
                 _context.Estoques.Remove(EstoqueProduto);
                 await _context.SaveChangesAsync();
+                TempData["Sucesso"] = "Estoque excluído com sucesso!";
             }
 
             return RedirectToPage("./Index");

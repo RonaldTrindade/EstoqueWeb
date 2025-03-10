@@ -39,7 +39,7 @@ namespace EstoqueWeb.Pages.PageEstoqueProduto
 
             _context.Estoques.Add(EstoqueProduto);
             await _context.SaveChangesAsync();
-
+            TempData["Sucesso"] = "Estoque cadastrado com sucesso!";
             return RedirectToPage("./Index");
         }
     }

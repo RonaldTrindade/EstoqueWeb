@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OyXDl5l9bDEc2n1saS/HUBbEhvT/6NptrcL4CaUvvMw=",
+  "Hash": "zDQxyEM9i0IcE+QWmiHDNUI8YzP4cB1FbxKjD5uUQHw=",
   "Source": "EstoqueWeb",
   "BasePath": "_content/EstoqueWeb",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "qubdx3lyun",
-      "Integrity": "vgXe7SzsQ//q28Pu8S8vmqhFbLxT3e5c81DHL8gHiyg=",
+      "Fingerprint": "8ka0sjpl2r",
+      "Integrity": "iDJGpQUtNYHe3DV6dhUH7E6KE2A9p+BVurc0rCB06Nw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ronal\\source\\repos\\EstoqueWeb\\EstoqueWeb\\obj\\Debug\\net8.0\\scopedcss\\bundle\\EstoqueWeb.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "qubdx3lyun",
-      "Integrity": "vgXe7SzsQ//q28Pu8S8vmqhFbLxT3e5c81DHL8gHiyg=",
+      "Fingerprint": "8ka0sjpl2r",
+      "Integrity": "iDJGpQUtNYHe3DV6dhUH7E6KE2A9p+BVurc0rCB06Nw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ronal\\source\\repos\\EstoqueWeb\\EstoqueWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EstoqueWeb.bundle.scp.css"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "i21jev53f7",
-      "Integrity": "KkbvvRhtg3pwiUbr+A/xMwbVt3Lz36ULOwRIQz6zrME=",
+      "Fingerprint": "6vb5zz6mpf",
+      "Integrity": "UhoCQ2fzBbFR6U+o9jpoxlctkhHA5wQVm1LZzzDI9zo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\cruds.css"
@@ -157,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "aun27oo14n",
-      "Integrity": "MmzsRT9VKiJYvyBYzOwQ6/kR8J1S5Kljxe6n0KoUD/M=",
+      "Fingerprint": "nasz2ntint",
+      "Integrity": "/8eRfKeTngN/jI4t6q8CyWct/sGCgKJ2fk3fAgR1Z6M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -1363,6 +1363,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/cruds.6vb5zz6mpf.css",
+      "AssetFile": "C:\\Users\\ronal\\source\\repos\\EstoqueWeb\\EstoqueWeb\\wwwroot\\css\\cruds.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2781"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UhoCQ2fzBbFR6U+o9jpoxlctkhHA5wQVm1LZzzDI9zo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:02:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6vb5zz6mpf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/cruds.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UhoCQ2fzBbFR6U+o9jpoxlctkhHA5wQVm1LZzzDI9zo="
+        }
+      ]
+    },
+    {
       "Route": "css/cruds.css",
       "AssetFile": "C:\\Users\\ronal\\source\\repos\\EstoqueWeb\\EstoqueWeb\\wwwroot\\css\\cruds.css",
       "Selectors": [],
@@ -1373,7 +1418,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2481"
+          "Value": "2781"
         },
         {
           "Name": "Content-Type",
@@ -1381,11 +1426,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KkbvvRhtg3pwiUbr+A/xMwbVt3Lz36ULOwRIQz6zrME=\""
+          "Value": "\"UhoCQ2fzBbFR6U+o9jpoxlctkhHA5wQVm1LZzzDI9zo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 20:22:24 GMT"
+          "Value": "Mon, 10 Mar 2025 02:02:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1395,52 +1440,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KkbvvRhtg3pwiUbr+A/xMwbVt3Lz36ULOwRIQz6zrME="
-        }
-      ]
-    },
-    {
-      "Route": "css/cruds.i21jev53f7.css",
-      "AssetFile": "C:\\Users\\ronal\\source\\repos\\EstoqueWeb\\EstoqueWeb\\wwwroot\\css\\cruds.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2481"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KkbvvRhtg3pwiUbr+A/xMwbVt3Lz36ULOwRIQz6zrME=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 20:22:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "i21jev53f7"
-        },
-        {
-          "Name": "label",
-          "Value": "css/cruds.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-KkbvvRhtg3pwiUbr+A/xMwbVt3Lz36ULOwRIQz6zrME="
+          "Value": "sha256-UhoCQ2fzBbFR6U+o9jpoxlctkhHA5wQVm1LZzzDI9zo="
         }
       ]
     },
@@ -1527,6 +1527,96 @@
       ]
     },
     {
+      "Route": "EstoqueWeb.8ka0sjpl2r.bundle.scp.css",
+      "AssetFile": "C:\\Users\\ronal\\source\\repos\\EstoqueWeb\\EstoqueWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EstoqueWeb.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iDJGpQUtNYHe3DV6dhUH7E6KE2A9p+BVurc0rCB06Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 01:43:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ka0sjpl2r"
+        },
+        {
+          "Name": "label",
+          "Value": "EstoqueWeb.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iDJGpQUtNYHe3DV6dhUH7E6KE2A9p+BVurc0rCB06Nw="
+        }
+      ]
+    },
+    {
+      "Route": "EstoqueWeb.8ka0sjpl2r.styles.css",
+      "AssetFile": "C:\\Users\\ronal\\source\\repos\\EstoqueWeb\\EstoqueWeb\\obj\\Debug\\net8.0\\scopedcss\\bundle\\EstoqueWeb.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iDJGpQUtNYHe3DV6dhUH7E6KE2A9p+BVurc0rCB06Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 01:43:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ka0sjpl2r"
+        },
+        {
+          "Name": "label",
+          "Value": "EstoqueWeb.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iDJGpQUtNYHe3DV6dhUH7E6KE2A9p+BVurc0rCB06Nw="
+        }
+      ]
+    },
+    {
       "Route": "EstoqueWeb.bundle.scp.css",
       "AssetFile": "C:\\Users\\ronal\\source\\repos\\EstoqueWeb\\EstoqueWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EstoqueWeb.bundle.scp.css",
       "Selectors": [],
@@ -1537,7 +1627,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5594"
+          "Value": "5348"
         },
         {
           "Name": "Content-Type",
@@ -1545,11 +1635,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vgXe7SzsQ//q28Pu8S8vmqhFbLxT3e5c81DHL8gHiyg=\""
+          "Value": "\"iDJGpQUtNYHe3DV6dhUH7E6KE2A9p+BVurc0rCB06Nw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 20:02:44 GMT"
+          "Value": "Mon, 10 Mar 2025 01:43:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1559,97 +1649,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vgXe7SzsQ//q28Pu8S8vmqhFbLxT3e5c81DHL8gHiyg="
-        }
-      ]
-    },
-    {
-      "Route": "EstoqueWeb.qubdx3lyun.bundle.scp.css",
-      "AssetFile": "C:\\Users\\ronal\\source\\repos\\EstoqueWeb\\EstoqueWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EstoqueWeb.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5594"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vgXe7SzsQ//q28Pu8S8vmqhFbLxT3e5c81DHL8gHiyg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 20:02:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qubdx3lyun"
-        },
-        {
-          "Name": "label",
-          "Value": "EstoqueWeb.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vgXe7SzsQ//q28Pu8S8vmqhFbLxT3e5c81DHL8gHiyg="
-        }
-      ]
-    },
-    {
-      "Route": "EstoqueWeb.qubdx3lyun.styles.css",
-      "AssetFile": "C:\\Users\\ronal\\source\\repos\\EstoqueWeb\\EstoqueWeb\\obj\\Debug\\net8.0\\scopedcss\\bundle\\EstoqueWeb.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5594"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vgXe7SzsQ//q28Pu8S8vmqhFbLxT3e5c81DHL8gHiyg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 20:02:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qubdx3lyun"
-        },
-        {
-          "Name": "label",
-          "Value": "EstoqueWeb.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vgXe7SzsQ//q28Pu8S8vmqhFbLxT3e5c81DHL8gHiyg="
+          "Value": "sha256-iDJGpQUtNYHe3DV6dhUH7E6KE2A9p+BVurc0rCB06Nw="
         }
       ]
     },
@@ -1664,7 +1664,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5594"
+          "Value": "5348"
         },
         {
           "Name": "Content-Type",
@@ -1672,11 +1672,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vgXe7SzsQ//q28Pu8S8vmqhFbLxT3e5c81DHL8gHiyg=\""
+          "Value": "\"iDJGpQUtNYHe3DV6dhUH7E6KE2A9p+BVurc0rCB06Nw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 20:02:44 GMT"
+          "Value": "Mon, 10 Mar 2025 01:43:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1686,7 +1686,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vgXe7SzsQ//q28Pu8S8vmqhFbLxT3e5c81DHL8gHiyg="
+          "Value": "sha256-iDJGpQUtNYHe3DV6dhUH7E6KE2A9p+BVurc0rCB06Nw="
         }
       ]
     },
@@ -1855,51 +1855,6 @@
       ]
     },
     {
-      "Route": "js/site.aun27oo14n.js",
-      "AssetFile": "C:\\Users\\ronal\\source\\repos\\EstoqueWeb\\EstoqueWeb\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "969"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MmzsRT9VKiJYvyBYzOwQ6/kR8J1S5Kljxe6n0KoUD/M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 20:18:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "aun27oo14n"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-MmzsRT9VKiJYvyBYzOwQ6/kR8J1S5Kljxe6n0KoUD/M="
-        }
-      ]
-    },
-    {
       "Route": "js/site.js",
       "AssetFile": "C:\\Users\\ronal\\source\\repos\\EstoqueWeb\\EstoqueWeb\\wwwroot\\js\\site.js",
       "Selectors": [],
@@ -1910,7 +1865,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "969"
+          "Value": "1477"
         },
         {
           "Name": "Content-Type",
@@ -1918,11 +1873,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MmzsRT9VKiJYvyBYzOwQ6/kR8J1S5Kljxe6n0KoUD/M=\""
+          "Value": "\"/8eRfKeTngN/jI4t6q8CyWct/sGCgKJ2fk3fAgR1Z6M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 20:18:49 GMT"
+          "Value": "Mon, 10 Mar 2025 02:04:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1932,7 +1887,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MmzsRT9VKiJYvyBYzOwQ6/kR8J1S5Kljxe6n0KoUD/M="
+          "Value": "sha256-/8eRfKeTngN/jI4t6q8CyWct/sGCgKJ2fk3fAgR1Z6M="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.nasz2ntint.js",
+      "AssetFile": "C:\\Users\\ronal\\source\\repos\\EstoqueWeb\\EstoqueWeb\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/8eRfKeTngN/jI4t6q8CyWct/sGCgKJ2fk3fAgR1Z6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:04:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nasz2ntint"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/8eRfKeTngN/jI4t6q8CyWct/sGCgKJ2fk3fAgR1Z6M="
         }
       ]
     },

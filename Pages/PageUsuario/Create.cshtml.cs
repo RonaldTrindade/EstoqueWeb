@@ -37,7 +37,7 @@ namespace EstoqueWeb.Pages.PageUsuario
 
             _context.Usuarios.Add(Usuario);
             await _context.SaveChangesAsync();
-
+            TempData["Sucesso"] = "Usuário cadastrado com sucesso!";
             return RedirectToPage("./Index");
         }
     }

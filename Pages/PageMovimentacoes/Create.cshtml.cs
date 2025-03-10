@@ -38,8 +38,8 @@ namespace EstoqueWeb.Pages.PageMovimentacoes
             
                 _context.Movimentacoes.Add(SaidaEntradaProduto);
                 await _context.SaveChangesAsync();
-
-                return RedirectToPage("./Index");
+            TempData["Sucesso"] = "Movimentação cadastrada com sucesso!";
+            return RedirectToPage("./Index");
       
         }
     }

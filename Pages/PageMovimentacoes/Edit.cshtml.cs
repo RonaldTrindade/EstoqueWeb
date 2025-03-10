@@ -63,7 +63,7 @@ namespace EstoqueWeb.Pages.PageMovimentacoes
                     throw;
                 }
             }
-
+            TempData["Sucesso"] = "Movimentação Editada com sucesso!";
             return RedirectToPage("./Index");
         }
 

@@ -40,7 +40,7 @@ namespace EstoqueWeb.Pages.PageProduto
 
             _context.Produtos.Add(Produto);
             await _context.SaveChangesAsync();
-
+            TempData["Sucesso"] = "Produto cadastrado com sucesso!";
             return RedirectToPage("./Index");
         }
     }
